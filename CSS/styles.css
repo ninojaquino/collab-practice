@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: calc(100vh / 3);
+    border: 1px solid #ccc;
+}
+
+.row-nav {
+    background-color: red;
+}
+
+
+.row .col {
+    background-color: cyan;
+}
+
+.row .col:nth-child(2) {
+    background-color: green;
+}
+
+.row-footer {
+    background-color: blue;
+}
+
